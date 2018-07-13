@@ -5,7 +5,7 @@ contract('BlockchanceToken', (accounts) => {
     var contract;
     //var owner = "0xe889a114411d22ad90D43aE49835143eE35198A5";
     var owner = accounts[0];
-    var maxTotalSupply = 1e27;
+    var maxTotalSupply = 1e26;
     var OneToken = 10**18;
 
     it('should deployed contract', async ()  => {
